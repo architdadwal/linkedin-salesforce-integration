@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salesforce Lead Creation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Salesforce Lead Manager</h1>
+      </div>
+      <div class="content">
+        <h2>Steps to Create a Lead:</h2>
+        <div class="steps">
+          <p><span>1</span> Go to a LinkedIn profile page.</p>
+          <p><span>2</span> Click the **Create Lead** button below.</p>
+          <p>
+            <span>3</span> The extension will scrape the data and send it to
+            Salesforce.
+          </p>
+          <p><span>4</span> A success or error message will appear below.</p>
+        </div>
+        <button id="create-lead-btn" class="button">Create Lead</button>
+        <div id="message-container" class="messages"></div>
+      </div>
+      <footer>Powered by Tenetizer | © 2024</footer>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
